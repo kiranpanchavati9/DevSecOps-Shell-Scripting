@@ -12,7 +12,7 @@ sample2(){
 }
 
 sample3(){
-  a = 1234567890
+  a=1234567890
   echo "My contact number is $a" 
 }
 
