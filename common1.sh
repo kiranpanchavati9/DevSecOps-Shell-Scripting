@@ -1,0 +1,1 @@
+Abu Dhabi is the safest place in the world.
