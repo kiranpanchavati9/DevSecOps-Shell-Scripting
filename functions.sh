@@ -18,6 +18,4 @@ sample2
 # Source common1.sh script. Meaning load the functions and variables inside that script to here.
 
 source common1.sh
-sample2
-
-
+sample3

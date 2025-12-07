@@ -1,1 +1,3 @@
-Abu Dhabi is the safest place in the world.
+sample3 {
+  echo Abudhabi is the safest city in the world.
+}
