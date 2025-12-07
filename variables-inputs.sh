@@ -1,15 +1,30 @@
-echo x - $x
+#!/bin/bash
 
- # Position
+echo "=============================="
+echo " 🔹 Variables in Shell Script"
+echo "=============================="
 
- echo First Argument - $1
- echo Second Argument - $2
- echo Third Argument - $3
- echo All Arguments - $*
- echo No of Arguments - $#
+# Assigning a variable
+x=100
+echo "Value of x = $x"
 
+echo
+echo "=============================="
+echo " 🔹 Command Line Arguments"
+echo "=============================="
 
- # read
+# Showing positional parameters
+echo "First Argument  = $1"
+echo "Second Argument = $2"
+echo "Third Argument  = $3"
 
- read -p 'Enter y: ' y
- echo y - $y
+echo "All Arguments   = $*"
+echo "Number of Args  = $#"
+
+echo
+echo "=============================="
+echo " 🔹 Reading Input from User"
+echo "=============================="
+
+read -p "Enter a value for y: " y
+echo "Value of y = $y"
