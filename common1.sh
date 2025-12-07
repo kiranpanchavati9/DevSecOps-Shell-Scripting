@@ -7,6 +7,6 @@ sample3() {
 
 sample4() {
   b=20
-  echo "sample4 function"
+  echo "sample4 function."
   echo "a - $a"
 }
