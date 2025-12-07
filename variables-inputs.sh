@@ -7,3 +7,9 @@ echo x - $x
  echo Third Argument - $3
  echo All Arguments - $*
  echo No of Arguments - $#
+
+
+ # read
+
+ read -p 'Enter y: ' y
+ echo y - $y
